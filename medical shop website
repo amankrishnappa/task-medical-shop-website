@@ -1,0 +1,111 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Medical Shop</title>
+</head>
+<body>
+    <header>
+        <h1>Medical Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="products">
+        <article class="product1">
+            <img src="product1.jpg" alt="Paracetamol-li">
+            <h2>Product 1</h2>
+            <p>Description of product 1.</p>
+            <p>Paracetamol, known as acetaminophen in the United States and Canada, is a widely used over-the-counter 
+            medication that belongs to the class of analgesics and antipyretics.
+            It is commonly used to relieve pain and reduce fever. 
+            Paracetamol is considered one of the most commonly used and safest medications for these purposes when used as directed.
+            </p>
+                
+            <button>Add to Cart</button>
+        </article>
+        <article class="product">
+            <img src="product2.jpg" alt="benydril">
+            <h2>Product 2</h2>
+            <p>Description of product 2.</p>
+            <p> "Benadryl," which is a brand name for the drug diphenhydramine. Benadryl is an antihistamine medication that is commonly used to relieve allergy 
+                symptoms, such as itching, runny nose, sneezing, and watery eyes.
+                 It is also sometimes used for its sedative effects and to treat symptoms of the common cold</p>>
+            <button>Add to Cart</button>
+        </article>
+        <!-- Add more product articles here -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Medical Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+style.css
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #1E90FF;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+section.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.product {
+    border: 1px solid #18827e58;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    max-width: 300px;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f4f4f4;
+}
+
